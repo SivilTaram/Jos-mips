@@ -20,10 +20,6 @@ nop
 		mtc0	zero,CP0_ENTRYLO0
 		nop
 		tlbwi
-	//add	k0, 40
-	//sb	k0, 0x90000000
-	//li	k0, '>'
-	//sb	k0, 0x90000000
 NOFOUND:
 
 	mtc0	k1,CP0_ENTRYHI
