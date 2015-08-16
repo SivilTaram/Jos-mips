@@ -5,7 +5,7 @@
 #include "error.h"
 
 
-
+/*我会发着呆*/
 /* These variables are set by i386_detect_memory() */
 u_long maxpa;            /* Maximum physical address */
 u_long npage;            /* Amount of memory(in pages) */
